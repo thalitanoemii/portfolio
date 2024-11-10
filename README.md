@@ -1,22 +1,26 @@
-# Olá, Bem vindo ao meu projeto de portfólio.
+# 🌟 Olá, Bem-vindo ao meu projeto de portfólio!
 
 ![Mockup do portfólio](assets/Mockup.png)
 
-## Ferramentas utilizadas:
+## 🛠️ Ferramentas utilizadas:
 
 <p>
- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40" title="HTML"/>
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40" title="CSS"/>
 </p>
 
-* HTML
+- **HTML**
+- **CSS**
+- **Flexbox**
 
-* CSS
+## 🚀 Acesse meu portfólio:
 
-* Flex-box
+### [🌐 Visite meu portfólio](https://portfolio-ashy-alpha-87.vercel.app/)
 
-## Feito por:
+## 👤 Feito por:
 
-### Thalita Noemi
+### **Thalita Noemi**
 
-### Linkedin: www.linkedin.com/in/thalita-noemi/
+## 🔗 Conecte-se comigo:
+
+### [💼 Visite meu LinkedIn](https://www.linkedin.com/in/thalita-noemi/)
