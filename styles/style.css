@@ -27,7 +27,7 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .cabecalho__menu__link {
@@ -50,8 +50,8 @@ body {
     margin: 5% 15%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -94,15 +94,15 @@ body {
     justify-content: center; 
     gap: 16px; 
     border: 2px solid var(--cor-terciaria);
-    width: 50%;
+    width: 80%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
+    font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
     color: var(--cor-secundaria); 
     font-family: var(--fonte-secundaria);
-    font-weight: 600;
     transition: transform 0.3s; 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     position: relative;
@@ -128,7 +128,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 80%;
 }
 
 .rodape {
@@ -201,9 +201,9 @@ body {
     text-overflow: ellipsis; /* Adiciona '...' se o texto for muito longo */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .cabecalho {
-        padding: 5%;
+        padding: 10%;
     }
 
     .cabecalho__menu {
@@ -211,17 +211,11 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column;
-        padding: 2%;
-    }
-
-    .apresentacao__imagem {
-        width: 50%; /* Mantenha a largura desejada */
-        margin: 0 auto; /* Centraliza a imagem horizontalmente */
-        display: block; /* Garante que a imagem seja tratada como bloco */
+        flex-direction: column-reverse;
+        padding: 5%;
     }
 
     .apresentacao__conteudo {
-        width: 100%;
+        width: auto;
     }
 }
