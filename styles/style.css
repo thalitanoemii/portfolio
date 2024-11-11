@@ -50,8 +50,8 @@ body {
     margin: 5% 15%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 82px;
+    justify-content: center;
+    gap: 20px;
 }
 
 .apresentacao__conteudo {
@@ -89,7 +89,7 @@ body {
     font-size: 1.5rem;
 }
 
-.apresentacao_links_navegacao {
+.apresentacao__links__navegacao {
     display: flex; 
     justify-content: center; 
     gap: 16px; 
@@ -109,7 +109,7 @@ body {
     transition: top 0.3s;
 }
 
-.apresentacao_links_navegacao:hover {
+.apresentacao__links__navegacao:hover {
     background-color: var(--cor-hover);
     transform: scale(1.1) rotate(5deg); 
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
@@ -117,7 +117,7 @@ body {
     color: #000000; 
 }
 
-.apresentacao_links_navegacao:hover .meu-icone {
+.apresentacao__links__navegacao:hover .meu-icone {
     filter: grayscale(100%) brightness(0); 
     transition: filter 0.3s;
 }
@@ -188,19 +188,22 @@ body {
 }
 
 .button {
+    min-width: 150px; /* Define uma largura mínima para o botão */
     display: inline-block;
-    margin: 10px;
     padding: 10px 20px;
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s;
+    white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+    overflow: hidden; /* Esconde o texto que excede o tamanho do botão */
+    text-overflow: ellipsis; /* Adiciona '...' se o texto for muito longo */
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
     .cabecalho {
-        padding: 10%;
+        padding: 5%;
     }
 
     .cabecalho__menu {
@@ -208,11 +211,17 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column-reverse;
-        padding: 5%;
+        flex-direction: column;
+        padding: 2%;
+    }
+
+    .apresentacao__imagem {
+        width: 50%; /* Mantenha a largura desejada */
+        margin: 0 auto; /* Centraliza a imagem horizontalmente */
+        display: block; /* Garante que a imagem seja tratada como bloco */
     }
 
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
     }
 }
